@@ -68,9 +68,9 @@ const Navbar = () => {
             <DropdownMenuLabel>My Account</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <Link href="/users/johndoe">
+              <Link href="/users/johndoe" className="flex items-center">
                 <User className="h-[1.2rem] w-[1.2rem] mr-2" />
-                Profile
+                <span>Profile</span>
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
